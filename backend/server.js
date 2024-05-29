@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 const app = express();
 
 app.get('/api/itineraries', (req, res) => {
-  res.send('Get Travel Plans');
+  res.status(200).json({ message: 'Hello from server!' });
 });
 
 
