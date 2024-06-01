@@ -5,4 +5,9 @@ router.get('/', (req, res) => {
   res.send('Itineraries');
 });
 
+router.get('/test', (req, res) => {
+  res.send('Itineraries Test');
+});
+
+
 module.exports = router;
